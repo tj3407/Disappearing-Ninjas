@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <link rel="stylesheet" href="disappearingninjas.css">
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('img').click(function(){
+                        $(this).hide();
+                        $('img').add("p");
+                    });
+                    $('.restore').click(function(){
+                        $('img').show();
+                    });
+                });    
+            </script>
+    </head>
+    <body>
+        <h1>jQuery - Disappearing Ninjas Assignment</h1>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <p><img src="cartoonninja.jpg" alt="Cartoon Ninja"></p>
+        <input type="button" class="restore" value="Restore">
+    </body>
+</html>

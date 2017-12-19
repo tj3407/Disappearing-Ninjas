@@ -1,0 +1,30 @@
+* {
+    width: 970px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.restore {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    box-shadow: 3px gray;
+    display: block;
+    margin: 50px 0px 0px 400px;
+    text-align: center;
+}
+
+p {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
